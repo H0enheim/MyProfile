@@ -1,0 +1,90 @@
+$main-color:hsl(213, 20%, 89%);
+.Main-Feeds-Cont{
+    .top-cont{
+    height: 100%;
+    width: 80%;
+    margin: 2rem 2rem;
+    padding: 1rem;
+    box-shadow: 1rem 1rem 2rem  1rem lightgray;
+    border-radius: 0.5 rem;
+    background:$main-color;
+    border-radius: .5rem;
+
+    .feed-input-cont{
+            display: flex;
+            align-items: center;
+    
+            .input-cont{
+                width:100%;
+                margin-left:0.5rem;
+                color:white;
+                border-radius: 1rem;
+                background:hsl(210, 88%, 60%);
+               #Post-desc{
+                    width: 100%;
+                    background: transparent;
+                    border:none;
+                    height: 2rem;
+                    line-height: 1.8rem;
+                    padding:0.2rem;
+                    margin-left:0.2rem;
+                    font-size:1rem;
+                    &:focus{
+                        outline: none;
+                        border: none;
+                    }
+                    &::placeholder{
+                        color:black;
+                    }
+               }
+
+           }
+
+    }
+    .feed-post-button-cont{
+        text-align:right;
+        #Buttonz-root{
+
+            background: $main-color;
+            color: black;
+            border-radius:0.5rem;
+            margin-top:0.8rem;
+        }
+
+    }
+    #hr-id{
+        height: 1px;
+        background-color: lightgray;
+        border:none;
+        width:90%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .iconButtons_action, .icon_button_action{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        margin-top: 0.7rem;
+        
+
+        .icon_button_action{
+            margin: auto;
+        }
+
+    }
+}
+    
+    .bottom-cont{
+        height: 100%;
+        width: 100%;
+        h3{
+           text-align: left;
+           margin-left: 2rem;
+        }
+        #Abt{
+            text-align: left;
+            margin-left: 2rem;
+            font-size: 1.7rem;
+        }
+    }
+} 

@@ -1,0 +1,140 @@
+$main-color:hsl(213, 20%, 89%);
+.Post-Cont{
+    text-align:center;
+    height: 100%;
+    width: 80%;
+    margin: 2rem 2rem;
+    padding: 1rem;
+    box-shadow: 0rem 0rem 1rem  0rem lightgray;
+    border-radius: 0.5 rem;
+    background:$main-color;
+    .headPortion{
+        display:flex;
+        align-items: flex-start;
+        justify-content:center;
+        flex-direction: column;
+        .user-info-portion{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 1rem;
+            .user-info{
+                margin-left: 1rem;
+                .userName{
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    text-align: left;
+
+                }
+
+            }
+        }
+        .post-desc{
+                font-size: 1rem;
+                margin-left: 0.5rem;
+                text-align: justify;
+                
+        }
+        .postCreateDate{
+            margin-top: 1rem;
+           font-size: 0.8rem;
+        }
+
+    }
+    .bodyPortion{
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .hr-post{
+        background-color: lightgray;
+        height: 1px;
+        border: none;
+        width : 90%;
+        margin: auto;
+        margin-top: 0.5rem;
+
+    }
+    .footerP{
+        display:flex;
+        justify-content: space-between;
+        padding: 1 rem;
+        align-items:center;
+
+    }
+}   
+
+
+
+
+.Post-Cont2{
+    text-align:center;
+    height: 100%;
+    width: 80%;
+    margin: 2rem 2rem;
+    padding: 1rem;
+    box-shadow: 0rem 0rem 1rem  0rem lightgray;
+    border-radius: 0.5 rem;
+    background: $main-color;
+    .headPortion2{
+        display:flex;
+        align-items: flex-start;
+        // justify-content:center;
+        flex-direction: column;
+        .user-info-portion2{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 1rem;
+            .user-info2{
+                margin-left: 1rem;
+                .userName2{
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    text-align: left;
+
+                }
+
+            }
+        }
+        .post-desc2{
+                font-size: 1rem;
+                margin-left: 0.5rem;
+                text-align: left;
+                
+        }
+        .postCreateDate2{
+            margin-top: 1rem;
+           font-size: 0.8rem;
+        }
+
+    }
+    .bodyPortion2{
+        text-align: left;
+        height: 100%;
+        width: 100%;
+        h1{
+            font-size:1.2rem;
+        }
+
+    }
+
+    .hr-post2{
+        background-color: rgb(254, 250, 250);
+        height: 1px;
+        border: none;
+        width : 90%;
+        margin: auto;
+        margin-top: 0.5rem;
+        color: rgb(240, 238, 238);
+
+    }
+    .footerP2{
+        display:flex;
+        justify-content: space-between;
+        padding: 1 rem;
+        align-items:center;
+
+    }
+}   
