@@ -24,7 +24,7 @@ const handleButtonClick=()=>{
                 </div>
             </div>
             <div className="feed-post-button-cont">
-                <Button id  ="Buttonz" onClick ={handleButtonClick}>Search</Button> 
+                <Button id ="Buttonz" onClick ={handleButtonClick}>Search</Button> 
 
             </div>
             <hr id = "hr-id"/>

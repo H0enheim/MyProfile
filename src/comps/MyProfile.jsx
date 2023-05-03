@@ -7,10 +7,11 @@ import './CSS/MyProfile.scss'
 import Feeds from './Feeds/Feeds'
 import Userinfo from './Userinfo/Userinfo'
 import Userinfo2 from './Userinfo/Userinfo2'
-
+import StarRating from './Rate/Rate'
 
  function MyProfile() {
     // let {UserId} =useParams();
+ 
   return (
    <div className ='MainProfile'>
             <div className="profile-container">
@@ -23,12 +24,19 @@ import Userinfo2 from './Userinfo/Userinfo2'
                     </div>
                     <div className="UserName">
                         Ahmed Muhammad Kaur
-                    </div>
-                    <div className="UserDetails">
-                        Manager at the Krusty Krab
+                   
                     </div>
                     
+                    <div className="UserDetails">
+                        Manager at the Krusty Krab
+                        
+                    </div>
+                    {/* <div> <Star stars = {Star} /></div> */}
+                    <div className="rating"><StarRating /></div>
+                    
+                    
                 </div>
+                
                 <div className="bottom-seg">
                     <div className="right-side">
                         <Feeds />
@@ -41,7 +49,9 @@ import Userinfo2 from './Userinfo/Userinfo2'
                     </div>
                 </div>
             </div>
+        
    </div>
+   
   )
 }
 export default MyProfile

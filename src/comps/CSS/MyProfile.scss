@@ -119,6 +119,10 @@ $secondary-color:#e63131;
 
     }
 }
+.rating{
+    margin-left: 13rem;
+    margin-bottom: -6.5rem;
+}
 [class*="col-"] {
     width: 100%;
   }
@@ -137,5 +141,12 @@ $secondary-color:#e63131;
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+      #prf-img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 50%;
+
+                }
   }
   
