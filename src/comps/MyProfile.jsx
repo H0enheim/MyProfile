@@ -8,6 +8,7 @@ import Feeds from './Feeds/Feeds'
 import Userinfo from './Userinfo/Userinfo'
 import Userinfo2 from './Userinfo/Userinfo2'
 import StarRating from './Rate/Rate'
+import Footer from '../components/Footer'
 
 function MyProfile() {
     // let {UserId} =useParams();
@@ -51,8 +52,9 @@ function MyProfile() {
                     </div>
                 </div>
             </div>
-
+            <Footer />
         </div>
+      
 
     )
 }

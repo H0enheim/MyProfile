@@ -3,7 +3,10 @@
 .footer_container {
     background-color: #030332;
     /* background-color: #a8aaab5f; */
-    margin-top: 90px;
+    margin-top: 75rem;
+    position: relative;
+    /* width: 100%; */
+    justify-content: center;
 }
 
 p {
@@ -66,4 +69,15 @@ p {
     color: #224fe6d2;
     padding-left: 10px;
     /* text-transform: uppercase; */
+}
+@media only screen and (min-width: 390px) {
+
+.footer_container {
+    background-color: #030332;
+    /* background-color: #a8aaab5f; */
+    margin-top: 80rem;
+    position: relative;
+    /* width: 100%; */
+    justify-content: center;
+}
 }
