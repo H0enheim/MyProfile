@@ -13,14 +13,16 @@ export default function Feeds() {
 
     }
     return (
-        <div className="Main-Feeds-Cont">
-            <div className="top-cont">
-                <div className="feed-input-cont">
-                    {/* <div className="avatar-cont">Ben</div> */}
-                    <div className="input-cont">
-                        <input id="Post-desc" placeholder="Search for Jobs.." />
-                        {/* value = {UserPostDescrip}
+        <>
+            <div className="Main-Feeds-Cont">
+                <div className="top-cont">
+                    <div className="feed-input-cont">
+                        {/* <div className="avatar-cont">Ben</div> */}
+                        <div className="input-cont">
+                            <input id="Post-desc" placeholder="Search for Jobs.." />
+                            {/* value = {UserPostDescrip}
                         onChange = {(e) => {setUserPostDescrip(e.target.value)}} */}
+                        </div>
                     </div>
                 </div>
                 <div className="feed-post-button-cont">
@@ -52,6 +54,8 @@ export default function Feeds() {
                 <Posts />
                 <Post2 />
             </div>
-        </div>
+
+
+        </>
     )
 }
